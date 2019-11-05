@@ -18,6 +18,11 @@ public class CountOccurrences {
     int n = arr.length;
     int x = 2;
     System.out.println(countOccurrences(arr, n, x));
+
+    int arr2[] = {1, 1, 2, 2, 2, 2, 3,};
+    int n2 = arr2.length;
+    int x2 = 2;
+    System.out.println(countOccurrences(arr2, n2, x2));
   }
 
 }
